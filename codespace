@@ -1,0 +1,29 @@
+
+
+```python
+import random
+
+# List of possible predictions
+predictions = [
+    "You will have a next sure aviator flight prediction 
+    "Expect a surprise in the near future.",
+    "Things will start looking up for you soon.",
+    "A new opportunity is on the horizon.",
+    "Your hard work will pay off soon.",
+]
+
+# Function to generate a random prediction
+def get_prediction():
+    return random.choice(predictions)
+
+# Main function to run the bot
+def main():
+    print("Welcome to the Prediction Bot!")
+    input("Think of a question and press Enter to receive a prediction.")
+    prediction = get_prediction()
+    print("Prediction:", prediction)
+
+# Run the main function
+if __name__ == "__main__":
+    main()
+```
